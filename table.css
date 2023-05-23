@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  td{
+    font-size: large;
+  }
+
+  .redCross{
+    background-color: #be6464;
+  color: white;
+  }
+
+  .greenTick{
+    background-color: #67af69;
+  color: white;
+  }
