@@ -45,6 +45,16 @@
   min-height: 100px;
   padding-left: 80px;
   margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* max-width: 20rem; */
+}
+
+.features-clean .item:nth-child(7) {
+  max-width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width:767px) {
@@ -72,4 +82,3 @@
   float: left;
   margin-left: -65px;
 }
-
